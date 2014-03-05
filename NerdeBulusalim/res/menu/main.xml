@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+		
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings">
+        <menu>
+             <group 
+         		android:checkableBehavior="single">
+        				<item android:id="@+id/satallite"
+          			      android:title="@string/Satallite" />
+       			   <item android:id="@+id/map"
+       			         android:checked="true"
+            			   android:title="@string/Map" />
+     				   <item android:id="@+id/traffic"
+              				android:title="@string/Traffic" />
+   			 </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/search"
+        android:title="@string/Search"/>
+    <item
+        android:id="@+id/send"
+        android:title="@string/Send"/>
+    <item
+        android:id="@+id/exit"
+        android:title="@string/Exit"/>
+    
+
+</menu>

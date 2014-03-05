@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<EditText
+	    android:id="@+id/search"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_toLeftOf="@+id/searchButton"
+	    android:inputType="text" />
+
+	    <!-- Search resim olacak büyüteç şeklinde -->
+	<com.google.android.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_below="@id/search"
+        android:apiKey = "0dt_UbwfZiSZbF1QvTkIj-W4H6zKe3QPFpcSQTw"
+        />
+<!-- AIzaSyDwNeCqAODIua1EizGG0g78OdJL1bLooC4 release key-->
+<!-- 0dt_UbwfZiSZbF1QvTkIj-W4H6zKe3QPFpcSQTw debug key-->
+	<Button
+	    android:id="@id/searchButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_above="@id/map"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/Search" />
+
+</RelativeLayout>
