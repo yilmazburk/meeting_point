@@ -52,7 +52,7 @@ public class MainActivity extends MapActivity {
 	final static String METHOD_NAME = "getLocation";
 	final static String SOAP_ACTION = "http://v3.soap.location.capabilityexposure.services.oksijen.com/getLocation";
 	final static String URL = "http://ulusoyweb.net/wsdl_deneme/TerminalLocationV3?WSDL";
-
+//add cemmit
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
